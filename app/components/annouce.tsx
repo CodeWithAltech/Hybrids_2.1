@@ -15,7 +15,9 @@ function Annoucement() {
                     onClick={() => {
                         // Toggle annouce hidden
                         const annouce = document.getElementById("annouce");
-                        annouce.classList.toggle("hidden");
+                        if(annouce){
+                            annouce.classList.toggle("hidden");
+                        }
                       }}
                 >
                     <svg
