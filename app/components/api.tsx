@@ -10,7 +10,6 @@ const WidgetComponent = () => {
                 id="widgetApiIframe"
                 width="100%"
                 height="100%"
-                allowtransparency="true"
                 scrolling="yes"
                 className="border-none"
                 src="https://loader.to/api/widget?adUrl=https://myAdurl.com"
