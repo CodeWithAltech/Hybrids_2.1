@@ -79,7 +79,7 @@ const Header = () => {
                     onClick={() => {
                       // Toggle sidebar visibility
                       const sidebar = document.getElementById("sidebar");
-                      sidebar.classList.toggle("hidden");
+                     const sidebar.classList.toggle("hidden");
                     }}
                   >
                     <svg
