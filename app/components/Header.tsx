@@ -78,12 +78,8 @@ const Header = () => {
                     className="rounded bg-gray-100 p-2 text-blue-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
                     onClick={() => {
                       // Toggle sidebar visibility
-                      let sidebar = document.getElementById("sidebar");
-
-                      if(sidebar){
-                        sidebar.classList.toggle("hidden");
-                      }
-
+                      const sidebar = document.getElementById("sidebar");
+                      sidebar.classList.toggle("hidden");
                     }}
                   >
                     <svg

@@ -15,8 +15,8 @@ const WidgetComponent = () => {
                 className="border-none"
                 src="https://loader.to/api/widget?adUrl=https://myAdurl.com"
             />
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.9/iframeResizer.min.js" />
-            <script>
+            <script async src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.9/iframeResizer.min.js" />
+            <script async >
                 {`
       IframeResize({ log: false }, '#widgetApiIframe')
     `}
